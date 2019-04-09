@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+    /* background-image: linear-gradient(to right,rgba(247, 243, 243, 0.6),rgba(243, 232, 232, 0.8)),url('../../assets/highway1.png'); */
+    background-repeat: repeat-x;
+    background-size: auto;
+
+}
+
+.login-container{
+    height: 300px;
+    width: 30%;
+    background-image: linear-gradient(to bottom,#7578fc,#b676ee);
+    margin: auto;
+    margin-top: 20%;   
+    transform: translateY(-50%);
+    text-align: center;
+    border-radius:10px;
+}
+.login-head{
+    font-weight: 100;
+    color: #fff;
+}
+
+i{
+    color: white;   
+}
