@@ -1,0 +1,20 @@
+<div class="main-container">
+  <div class="login-container">
+      <i class="fa fa-user-circle-o top-icon" style="margin-top:30px; font-size:50px;"></i>
+      <h3 class="login-head">LOG IN</h3>
+
+      <form [formGroup]="loginForm" (ngSubmit)='loginSubmit()'>
+        <div class="textinput">
+          <i class="fa fa-user"></i>
+          <input type="text" placeholder="Username" formControlName="Username" value='' />
+        </div>
+        <div class="textinput">
+          <i class="fa fa-lock"></i>
+          <input type="password" placeholder="Password" formControlName="Password" value='' />
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <p style="color:red;">{{ errorMsg }}</p>
+      </form>
+      
+  </div>
+</div>
